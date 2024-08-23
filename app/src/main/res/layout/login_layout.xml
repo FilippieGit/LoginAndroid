@@ -5,9 +5,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="20dp"
     android:orientation="vertical"
-    tools:context=".LoginActivity"
-    android:layout_margin="20dp">
+    tools:context=".LoginActivity">
 
     <ImageView
         android:layout_width="150dp"
@@ -17,7 +17,9 @@
         android:layout_marginBottom="20dp"
         android:contentDescription="@string/imagem_do_login"
         android:scaleType="centerCrop"
-        android:src="#2c2c2c" />
+        android:src="@drawable/logo"
+
+        />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -31,9 +33,11 @@
             android:id="@+id/txtemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:inputType="textEmailAddress"
             android:maxLength="50"
-            android:layout_margin="10dp"
+
             />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -43,41 +47,47 @@
         android:contentDescription="@string/senha_do_login"
         android:hint="@string/senha"
         app:endIconMode="password_toggle"
-        app:startIconDrawable="@drawable/baseline_email">
+        app:startIconDrawable="@drawable/baseline_lock">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txtSenha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:inputType="textPassword"
-            android:maxLength="20"
-            android:layout_margin="10dp"/>
+            android:maxLength="20" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
-        style="@style/Widget.Material3.Button.ElevatedButton"
         android:id="@+id/btnAcessarsistema"
+        style="@style/Widget.Material3.Button.ElevatedButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="@string/acessar_o_sistema"
+
+        />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <com.google.android.material.button.MaterialButton
-            style="@style/Widget.Material3.Button.ElevatedButton"
             android:id="@+id/btnCadastrarConta"
+            style="@style/Widget.Material3.Button.ElevatedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:text="@string/cadastrar_conta" />
 
         <com.google.android.material.button.MaterialButton
-            style="@style/Widget.Material3.Button.ElevatedButton"
-            android:layout_alignParentEnd="true"
             android:id="@+id/btnRecuperarConta"
+            style="@style/Widget.Material3.Button.ElevatedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
             android:text="@string/recuperar_conta" />
 
 
