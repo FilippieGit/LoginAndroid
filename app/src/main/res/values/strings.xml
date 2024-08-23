@@ -8,4 +8,7 @@
     <string name="acessar_o_sistema">Acessar o sistema</string>
     <string name="cadastrar_conta">Cadastrar Conta</string>
     <string name="recuperar_conta">Recuperar Conta</string>
+    <string name="insira_seu_e_mail_para_que_possamos_recuperar_sua_senha">Insira seu e-mail para que possamos recuperar sua senha</string>
+    <string name="deseja_recuperar_seu_e_mail">Deseja recuperar seu e-mail?</string>
+    <string name="enviar">Enviar</string>
 </resources>
