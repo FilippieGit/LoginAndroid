@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="imagem_do_login">Login da imagem</string>
+    <string name="e_mail">E-mail</string>
+    <string name="email_do_login">Email do login</string>
+    <string name="senha_do_login">Senha do login</string>
+    <string name="senha">Senha</string>
+    <string name="acessar_o_sistema">Acessar o sistema</string>
+    <string name="cadastrar_conta">Cadastrar Conta</string>
+    <string name="recuperar_conta">Recuperar Conta</string>
+</resources>
